@@ -1,0 +1,102 @@
+/*   @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");   */
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #06055f 96.03%);
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-width: 160px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.65);
+}
+
+.textos {
+  margin-left: 16px;
+}
+
+.textos h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.textos h3 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 20px;
+  padding: 6px 16px;
+  background: #ecf4ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 2px solid #0e1d2f;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 8px 8px 8px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none; /* "desestiliza" qualquer coisa que esteja estilizada*/
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.projetos-item {
+  list-style-type: none; /* tira a bolinha ao lado de cada nome de projeto*/
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  font-style: normal;
+  text-decoration: none; /* eliminar "text-decoration"*/
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 26.27%, #b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
